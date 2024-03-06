@@ -1,14 +1,12 @@
 name: Get daily stats
 on:
-  #schedule:
-  #  - cron: "0 0 * * *"
-  push:
-    branches: [ "*" ]
+  schedule:
+   - cron: "0 0 * * *"
 jobs:
   cron:
     runs-on: ubuntu-latest
     steps:
-    
+
     - name: Git clone
       uses: actions/checkout@v2
       with:
