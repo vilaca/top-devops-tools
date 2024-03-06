@@ -8,6 +8,7 @@ jobs:
   cron:
     runs-on: ubuntu-latest
     steps:
+    
     - name: Git clone
       uses: actions/checkout@v2
       with:
@@ -33,12 +34,13 @@ jobs:
         sort -nr score-output > data/"$today"-score
         rm score-output
 
-    # - name: Extract branch name
-    #   shell: bash
-    #   run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-    #   id: extract_branch
-    # - name: GitHub Commit & Push
-    #   uses: actions-js/push@v1.3
-    #   with:
-    #     github_token: ${{ secrets.GITHUB_TOKEN }}
-    #     branch: ${{ steps.extract_branch.outputs.branch }}
+    - name: Extract branch name
+      shell: bash
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+
+    - name: GitHub Commit & Push
+      uses: actions-js/push@v1.3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ steps.extract_branch.outputs.branch }}
