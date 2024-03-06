@@ -1,4 +1,6 @@
 
+echo "$1 <- $2"
+
 rm score-output
 
 declare -A stars

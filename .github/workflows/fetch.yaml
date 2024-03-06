@@ -1,7 +1,9 @@
 name: Get daily stats
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  #schedule:
+  #  - cron: "0 0 * * *"
+  push:
+    branches: [ "*" ]
 jobs:
   cron:
     runs-on: ubuntu-latest
@@ -11,18 +13,32 @@ jobs:
       with:
         persist-credentials: false 
         fetch-depth: 0
-    - name: Build
+
+    - name: Fetch
       env:
         PAT: ${{ secrets.PAT }}
       shell: bash
       run: ./scripts/fetch.sh
-    - name: Extract branch name
-      shell: bash
-      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-      id: extract_branch
-    - name: GitHub Commit & Push
-      uses: actions-js/push@v1.3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: ${{ steps.extract_branch.outputs.branch }}
 
+    - name: Score
+      env:
+        PAT: ${{ secrets.PAT }}
+      shell: bash
+      run: |
+        today=$(./scripts/utils/today.sh)
+        sevenDaysAgo=$(./scripts/utils/sevenDaysAgo.sh)
+        echo $today
+        echo $sevenDaysAgo
+        ./scripts/score.sh data/$today data/$sevenDaysAgo
+        sort -nr score-output > data/"$today"-score
+        rm score-output
+
+    # - name: Extract branch name
+    #   shell: bash
+    #   run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+    #   id: extract_branch
+    # - name: GitHub Commit & Push
+    #   uses: actions-js/push@v1.3
+    #   with:
+    #     github_token: ${{ secrets.GITHUB_TOKEN }}
+    #     branch: ${{ steps.extract_branch.outputs.branch }}
