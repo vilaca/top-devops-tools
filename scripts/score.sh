@@ -1,7 +1,5 @@
 
-echo "$1 <- $2"
-
-rm score-output
+echo "Scoring $1 <- $2"
 
 declare -A stars
 
