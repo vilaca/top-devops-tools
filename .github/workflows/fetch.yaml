@@ -1,7 +1,7 @@
 name: Get daily stats
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  push:
+    branches: [ "*" ]
 jobs:
   cron:
     runs-on: ubuntu-latest
