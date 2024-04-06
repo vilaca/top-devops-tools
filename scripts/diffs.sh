@@ -24,7 +24,7 @@ done < "data/$1-score"
 printf '<div align="center">\n\n'
 
 echo "|Current|Yesterday|Repository|Stars|Up/Dn|"
-echo "|:---:|:---:|:---|:---:|:---:|"
+echo "|:---:|:---:|:---:|:---|:---:|"
 #draw chart
 while IFS="" read -r line || [ -n "$line" ]
 do
@@ -41,7 +41,7 @@ do
     else
         move="-"
     fi
-    echo "|$position|${last:--}|[https://github.com/$name]($name)|+$stars|$move|"
+    echo "|$move|$position|${last:--}|[https://github.com/$name]($name)|+$stars|"
 done < "today-nr"
 
 printf '\n\n<div>\n'
