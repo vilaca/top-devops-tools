@@ -1,6 +1,6 @@
 <div align="center">
 
-|🔼/🔽|Current|Yesterday|Repository|Stars|
+||Current|Yesterday|Repository|Stars|
 |:---:|:---:|:---:|:---|:---:|
 |-|1|1|[https://github.com/winglang/wing](winglang/wing)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+428|
 |🔼|2|3|[https://github.com/kubernetes/kubernetes](kubernetes/kubernetes)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+192|
@@ -27,7 +27,7 @@
 |-|23|23|[https://github.com/argoproj/argo-cd](argoproj/argo-cd)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+61|
 |-|24|24|[https://github.com/cilium/cilium](cilium/cilium)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+59|
 |-|25|25|[https://github.com/GoogleContainerTools/kaniko](GoogleContainerTools/kaniko)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+58|
-|🔼|26|28|[https://github.com/grafana/loki](grafana/loki)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+55|
+|🔼|26|28|[https://github.com/grafana/loki](grafana/loki)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+56|
 |🔽|27|26|[https://github.com/getsops/sops](getsops/sops)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+55|
 |🔽|28|-|[https://github.com/aws/karpenter-provider-aws](aws/karpenter-provider-aws)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+53|
 |🔽|29|27|[https://github.com/siderolabs/talos](siderolabs/talos)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+48|

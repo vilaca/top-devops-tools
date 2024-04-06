@@ -23,7 +23,7 @@
 61 argoproj/argo-cd
 59 cilium/cilium
 58 GoogleContainerTools/kaniko
-55 grafana/loki
+56 grafana/loki
 55 getsops/sops
 53 aws/karpenter-provider-aws
 48 siderolabs/talos
@@ -31,8 +31,8 @@
 47 rebuy-de/aws-nuke
 45 docker/compose
 44 trufflesecurity/trufflehog
+43 containerd/containerd
 42 headlamp-k8s/headlamp
-42 containerd/containerd
 41 containers/skopeo
 40 goharbor/harbor
 38 helm/helm
@@ -56,7 +56,7 @@
 31 k0sproject/k0s
 30 chaos-mesh/chaos-mesh
 30 argoproj/argo-workflows
-29 openfaas/faas
+28 openfaas/faas
 28 linkerd/linkerd2
 28 kubernetes-sigs/kind
 27 slimtoolkit/slim
@@ -66,7 +66,7 @@
 27 ahmetb/kubectx
 25 kyverno/kyverno
 25 ko-build/ko
-24 google/gvisor
+25 google/gvisor
 24 google/cadvisor
 24 dexidp/dex
 23 kubernetes-sigs/kubespray
@@ -123,13 +123,13 @@
 12 kubernetes-sigs/kustomize
 12 komodorio/helm-dashboard
 12 k8spacket/k8spacket
+12 fission/fission
 12 cilium/hubble
 11 rook/rook
 11 pixie-io/pixie
 11 metallb/metallb
 11 knative/serving
 11 k3s-io/kine
-11 fission/fission
 11 clastix/kamaji
 11 GoogleContainerTools/jib
 10 zegl/kube-score
@@ -386,7 +386,6 @@
 0 blendle/kns
 0 azure/draft
 0 aquasecurity/defsec
-0 apache/openwhisk
 0 andreazorzetto/yh
 0 alcideio/skan
 0 alcideio/advisor
@@ -409,6 +408,7 @@
 -1 eclipse/che
 -1 deggja/serpent
 -1 deepfence/YaraHunter
+-1 apache/openwhisk
 -1 Trendyol/kink
 -1 PlayFab/thundernetes
 -2 ContainerSSH/ContainerSSH
