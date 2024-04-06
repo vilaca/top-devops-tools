@@ -12,7 +12,7 @@
 99 prometheus/prometheus
 96 loft-sh/vcluster
 91 aquasecurity/trivy
-90 istio/istio
+89 istio/istio
 88 containers/podman
 81 pulumi/pulumi
 81 coder/coder
@@ -60,14 +60,14 @@
 28 linkerd/linkerd2
 28 kubernetes-sigs/kind
 27 slimtoolkit/slim
-27 kubernetes/minikube
 27 falcosecurity/falco
 27 cert-manager/cert-manager
 27 ahmetb/kubectx
 25 kyverno/kyverno
+25 kubernetes/minikube
 25 ko-build/ko
-25 google/gvisor
 24 kubernetes-sigs/kubespray
+24 google/gvisor
 24 google/cadvisor
 24 dexidp/dex
 23 dapr/dapr
@@ -159,6 +159,7 @@
 8 Checkmarx/kics
 7 virtual-kubelet/virtual-kubelet
 7 stackrox/kube-linter
+7 kubeshop/monokle
 7 kubernetes-sigs/kui
 7 kubermatic/kubeone
 7 kcp-dev/kcp
@@ -174,7 +175,6 @@
 6 projectcontour/contour
 6 nuclio/nuclio
 6 metalbear-co/mirrord
-6 kubeshop/monokle
 6 kubernetes/test-infra
 6 kubepug/kubepug
 6 k0sproject/k0smotron

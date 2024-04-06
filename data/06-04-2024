@@ -133,7 +133,7 @@
 22080 goharbor/harbor
 16239 google/cadvisor
 507 google/gke-policy-automation
-15024 google/gvisor
+15023 google/gvisor
 13352 GoogleContainerTools/jib
 13788 GoogleContainerTools/kaniko
 14637 GoogleContainerTools/skaffold
@@ -170,7 +170,7 @@
 1962 iovisor/kubectl-trace
 3156 iron-io/functions
 1 ishantanu/kubectl-unbound-pvc
-34856 istio/istio
+34855 istio/istio
 1553 itaysk/kubectl-neat
 1059 jacksontj/promxy
 19319 jaegertracing/jaeger
@@ -246,13 +246,13 @@
 15531 kubernetes/kops
 5057 kubernetes/kube-state-metrics
 106351 kubernetes/kubernetes
-28262 kubernetes/minikube
+28260 kubernetes/minikube
 2740 kubernetes/node-problem-detector
 3785 kubernetes/test-infra
 9651 kubescape/kubescape
 10493 kubeshark/kubeshark
 2022 kubeshop/botkube
-1501 kubeshop/monokle
+1502 kubeshop/monokle
 864 kubeshop/tracetest
 14237 kubesphere/kubesphere
 41 KubeStellar/kubeflex
