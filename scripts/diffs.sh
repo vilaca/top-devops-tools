@@ -23,7 +23,7 @@ done < "data/$1-score"
 
 printf '<div align="center">\n\n'
 
-echo "|🔼/🔽|Current|Yesterday|Repository|Stars|"
+echo "||Current|Yesterday|Repository|Stars|"
 echo "|:---:|:---:|:---:|:---|:---:|"
 #draw chart
 while IFS="" read -r line || [ -n "$line" ]
