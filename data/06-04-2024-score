@@ -1,7 +1,7 @@
-431 winglang/wing
+435 winglang/wing
 192 kubernetes/kubernetes
 161 gravitational/teleport
-142 wagoodman/dive
+143 wagoodman/dive
 137 netdata/netdata
 128 minio/minio
 119 Infisical/infisical
@@ -22,12 +22,12 @@
 66 portainer/portainer
 61 argoproj/argo-cd
 59 cilium/cilium
+58 grafana/loki
 58 GoogleContainerTools/kaniko
-56 grafana/loki
 55 getsops/sops
 53 aws/karpenter-provider-aws
 49 siderolabs/talos
-48 crossplane/crossplane
+49 crossplane/crossplane
 47 rebuy-de/aws-nuke
 45 docker/compose
 44 trufflesecurity/trufflehog
@@ -70,7 +70,7 @@
 24 google/gvisor
 24 google/cadvisor
 24 dexidp/dex
-23 dapr/dapr
+24 dapr/dapr
 22 kube-hetzner/terraform-hcloud-kube-hetzner
 22 bridgecrewio/checkov
 21 projectcalico/calico

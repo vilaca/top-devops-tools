@@ -1,11 +1,13 @@
+# Devops OSS Tools Top 30 Chart
+<sup>Compiled using https://github.com/vilaca/awesome-k8s-tools</sup>
 <div align="center">
 
 |Current|Previous|Repository|Stars|
 |:---:|:---:|:---|:---:|
-|1|1|[https://github.com/winglang/wing](winglang/wing)<br/>A TypeScript dialect for the cloud ☁️ A unified programming model, combining infrastructure and runtime code into one language ⚡ |4080 <sup>(+431)</sup>|
+|1|1|[https://github.com/winglang/wing](winglang/wing)<br/>A TypeScript dialect for the cloud ☁️ A unified programming model, combining infrastructure and runtime code into one language ⚡ |4084 <sup>(+435)</sup>|
 |2|3|[https://github.com/kubernetes/kubernetes](kubernetes/kubernetes)<br/>Production-Grade Container Scheduling and Management|106351 <sup>(+192)</sup>|
 |3|2|[https://github.com/gravitational/teleport](gravitational/teleport)<br/>Protect access to all of your infrastructure|16375 <sup>(+161)</sup>|
-|4|5|[https://github.com/wagoodman/dive](wagoodman/dive)<br/>A tool for exploring each layer in a docker image|43341 <sup>(+142)</sup>|
+|4|5|[https://github.com/wagoodman/dive](wagoodman/dive)<br/>A tool for exploring each layer in a docker image|43342 <sup>(+143)</sup>|
 |5|6|[https://github.com/netdata/netdata](netdata/netdata)<br/>The open-source observability platform everyone needs!|67946 <sup>(+137)</sup>|
 |6|8|[https://github.com/minio/minio](minio/minio)<br/>The Object Store for AI Data Infrastructure|43882 <sup>(+128)</sup>|
 |7|7|[https://github.com/Infisical/infisical](Infisical/infisical)<br/>♾ Infisical is the open-source secret management platform: Sync secrets across your team/infrastructure and prevent secret leaks.|11806 <sup>(+119)</sup>|
@@ -26,12 +28,14 @@
 |22|20|[https://github.com/portainer/portainer](portainer/portainer)<br/>Making Docker and Kubernetes management easy.|28581 <sup>(+66)</sup>|
 |23|23|[https://github.com/argoproj/argo-cd](argoproj/argo-cd)<br/>Declarative Continuous Deployment for Kubernetes|15980 <sup>(+61)</sup>|
 |24|24|[https://github.com/cilium/cilium](cilium/cilium)<br/>eBPF-based Networking, Security, and Observability|18388 <sup>(+59)</sup>|
-|25|25|[https://github.com/GoogleContainerTools/kaniko](GoogleContainerTools/kaniko)<br/>Build Container Images In Kubernetes|13788 <sup>(+58)</sup>|
-|26|28|[https://github.com/grafana/loki](grafana/loki)<br/>Like Prometheus, but for logs.|21955 <sup>(+56)</sup>|
+|25|28|[https://github.com/grafana/loki](grafana/loki)<br/>Like Prometheus, but for logs.|21957 <sup>(+58)</sup>|
+|26|25|[https://github.com/GoogleContainerTools/kaniko](GoogleContainerTools/kaniko)<br/>Build Container Images In Kubernetes|13788 <sup>(+58)</sup>|
 |27|26|[https://github.com/getsops/sops](getsops/sops)<br/>Simple and flexible tool for managing secrets|14975 <sup>(+55)</sup>|
 |28|-|[https://github.com/aws/karpenter-provider-aws](aws/karpenter-provider-aws)<br/>Karpenter is a Kubernetes Node Autoscaler built for flexibility, performance, and simplicity.|5787 <sup>(+53)</sup>|
 |29|27|[https://github.com/siderolabs/talos](siderolabs/talos)<br/>Talos Linux is a modern Linux distribution built for Kubernetes.|5231 <sup>(+49)</sup>|
-|30|-|[https://github.com/crossplane/crossplane](crossplane/crossplane)<br/>The Cloud Native Control Plane|8652 <sup>(+48)</sup>|
+|30|-|[https://github.com/crossplane/crossplane](crossplane/crossplane)<br/>The Cloud Native Control Plane|8653 <sup>(+49)</sup>|
 
 
 <div>
+
+This chart estimates what are the 30 most popular OSS Devops tools by calculating how many Github stars each repository received in the last seven days.
