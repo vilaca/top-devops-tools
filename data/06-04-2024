@@ -85,7 +85,7 @@
 1224 deepfence/YaraHunter
 113 deggja/serpent
 178 Dentrax/kubesql
-24638 derailed/k9s
+24639 derailed/k9s
 4944 derailed/popeye
 230 devfile/api
 4047 devspace-sh/devspace
@@ -235,7 +235,7 @@
 264 kubernauts/tk8
 3322 kubernetes-sigs/cluster-api
 12694 kubernetes-sigs/kind
-6092 kubernetes-sigs/krew
+6093 kubernetes-sigs/krew
 7352 kubernetes-sigs/kubebuilder
 15283 kubernetes-sigs/kubespray
 2739 kubernetes-sigs/kui
@@ -243,7 +243,7 @@
 7592 kubernetes/autoscaler
 13781 kubernetes/dashboard
 16587 kubernetes/ingress-nginx
-15530 kubernetes/kops
+15531 kubernetes/kops
 5057 kubernetes/kube-state-metrics
 106351 kubernetes/kubernetes
 28262 kubernetes/minikube

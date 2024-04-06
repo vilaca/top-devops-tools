@@ -6,7 +6,7 @@
 128 minio/minio
 119 Infisical/infisical
 118 abiosoft/colima
-103 derailed/k9s
+104 derailed/k9s
 101 grafana/grafana
 99 traefik/traefik
 99 prometheus/prometheus
@@ -107,10 +107,11 @@
 14 rancher/rke2
 14 madhuakula/kubernetes-goat
 14 lensapp/lens
+14 kubernetes/kops
 14 kubefirst/kubefirst
 13 prometheus/alertmanager
 13 kubernetes/node-problem-detector
-13 kubernetes/kops
+13 kubernetes-sigs/krew
 13 kubernetes-sigs/cluster-api
 13 kubeedge/kubeedge
 13 gardener/gardener
@@ -120,7 +121,6 @@
 12 kubevirt/kubevirt
 12 kubeshark/kubeshark
 12 kubernetes-sigs/kustomize
-12 kubernetes-sigs/krew
 12 komodorio/helm-dashboard
 12 k8spacket/k8spacket
 12 cilium/hubble
