@@ -1,13 +1,13 @@
-429 winglang/wing
+430 winglang/wing
 192 kubernetes/kubernetes
 161 gravitational/teleport
 142 wagoodman/dive
-138 netdata/netdata
+137 netdata/netdata
 128 minio/minio
 119 Infisical/infisical
 118 abiosoft/colima
 104 derailed/k9s
-102 grafana/grafana
+103 grafana/grafana
 99 traefik/traefik
 99 prometheus/prometheus
 96 loft-sh/vcluster
@@ -386,6 +386,7 @@
 0 blendle/kns
 0 azure/draft
 0 aquasecurity/defsec
+0 apache/openwhisk
 0 andreazorzetto/yh
 0 alcideio/skan
 0 alcideio/advisor
@@ -408,7 +409,6 @@
 -1 eclipse/che
 -1 deggja/serpent
 -1 deepfence/YaraHunter
--1 apache/openwhisk
 -1 Trendyol/kink
 -1 PlayFab/thundernetes
 -2 ContainerSSH/ContainerSSH

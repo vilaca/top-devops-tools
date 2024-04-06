@@ -14,7 +14,7 @@
 398 andreazorzetto/yh
 50 AndrewGuenther/cdk-fck-nat
 13593 apache/apisix
-6348 apache/openwhisk
+6349 apache/openwhisk
 881 apptainer/apptainer
 658 appvia/krane
 203 aquasecurity/defsec
@@ -137,7 +137,7 @@
 13352 GoogleContainerTools/jib
 13788 GoogleContainerTools/kaniko
 14637 GoogleContainerTools/skaffold
-60092 grafana/grafana
+60093 grafana/grafana
 23191 grafana/k6
 21955 grafana/loki
 3680 grafana/mimir
@@ -290,7 +290,7 @@
 8 mostafahussein/kubernetes-sec-alert
 179 mrahbar/k8s-testsuite
 3758 MuhammedKalkan/OpenLens
-67947 netdata/netdata
+67946 netdata/netdata
 562 NexClipper/NexClipper
 7544 nicolaka/netshoot
 70 nikolaydubina/jsonl-graph
@@ -415,7 +415,7 @@
 149 weaveworks/weave-gitops-enterprise
 3895 werf/werf
 35 wI2L/kubectl-vpa-recommendation
-4078 winglang/wing
+4079 winglang/wing
 1877 yannh/kubeconform
 360 yashbhutwala/kubectl-df-pv
 17 yuyicai/kubei
