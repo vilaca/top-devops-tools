@@ -43,10 +43,10 @@
 35 kubeflow/kubeflow
 35 kube-vip/kube-vip
 34 open-policy-agent/opa
+34 dokku/dokku
 34 distribution/distribution
 33 prometheus/node_exporter
 33 kubernetes/ingress-nginx
-33 dokku/dokku
 32 stakater/Reloader
 32 envoyproxy/envoy
 31 yannh/kubeconform
