@@ -42,6 +42,7 @@ jobs:
         echo $today
         echo $yesterday
         ./scripts/diffs.sh $today $yesterday > README.md
+        rm today today-nr yesterday yesterday-nr
 
     - name: Extract branch name
       shell: bash

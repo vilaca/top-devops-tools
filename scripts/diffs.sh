@@ -32,7 +32,7 @@ do
     else
         move="-"
     fi
-    echo "|$position|${last:--}|[$name]($name)|$move|"
+    echo "|$position|${last:--}|[https://github.com/$name]($name)|$move|"
 done < "today-nr"
 
 printf '\n\n<div>\n'
