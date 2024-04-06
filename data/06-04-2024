@@ -143,7 +143,7 @@
 3680 grafana/mimir
 2194 grafana/tanka
 1083 gravitational/gravity
-16374 gravitational/teleport
+16375 gravitational/teleport
 1645 groundcover-com/caretta
 302 groundcover-com/murre
 557 groundnuty/k8s-wait-for
@@ -237,7 +237,7 @@
 12694 kubernetes-sigs/kind
 6093 kubernetes-sigs/krew
 7352 kubernetes-sigs/kubebuilder
-15283 kubernetes-sigs/kubespray
+15284 kubernetes-sigs/kubespray
 2739 kubernetes-sigs/kui
 10512 kubernetes-sigs/kustomize
 7592 kubernetes/autoscaler
@@ -247,7 +247,7 @@
 5057 kubernetes/kube-state-metrics
 106351 kubernetes/kubernetes
 28262 kubernetes/minikube
-2739 kubernetes/node-problem-detector
+2740 kubernetes/node-problem-detector
 3785 kubernetes/test-infra
 9651 kubescape/kubescape
 10493 kubeshark/kubeshark
@@ -265,7 +265,7 @@
 1504 kyma-project/kyma
 5060 kyverno/kyverno
 294 Ladicle/kubectl-rolesum
-2274 LeanerCloud/AutoSpotting
+2275 LeanerCloud/AutoSpotting
 22159 lensapp/lens
 10319 linkerd/linkerd2
 1746 linki/chaoskube
@@ -335,7 +335,7 @@
 52498 prometheus/prometheus
 2176 prymitive/karma
 2813 pulumi/kubespy
-19531 pulumi/pulumi
+19532 pulumi/pulumi
 162 punk-security/secret-magpie
 59 pymag09/kubecui
 112 rajatjindal/kubectl-whoami
@@ -365,7 +365,7 @@
 5 shini4i/kd
 1828 Shopify/kubeaudit
 385 siderolabs/sidero
-5230 siderolabs/talos
+5231 siderolabs/talos
 1234 sighupio/permission-manager
 4017 sigstore/cosign
 729 similarweb/finala
@@ -377,7 +377,7 @@
 1940 squat/kilo
 2731 stackrox/kube-linter
 6632 stakater/Reloader
-2729 stern/stern
+2730 stern/stern
 126 sukeesh/k8s-job-notify
 56 superbrothers/ksort
 1000 superedge/superedge

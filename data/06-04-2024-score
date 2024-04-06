@@ -1,6 +1,6 @@
 428 winglang/wing
 192 kubernetes/kubernetes
-160 gravitational/teleport
+161 gravitational/teleport
 142 wagoodman/dive
 138 netdata/netdata
 128 minio/minio
@@ -14,8 +14,8 @@
 91 aquasecurity/trivy
 90 istio/istio
 88 containers/podman
+81 pulumi/pulumi
 81 coder/coder
-80 pulumi/pulumi
 73 etcd-io/etcd
 70 grafana/k6
 67 k3s-io/k3s
@@ -26,7 +26,7 @@
 56 grafana/loki
 55 getsops/sops
 53 aws/karpenter-provider-aws
-48 siderolabs/talos
+49 siderolabs/talos
 48 crossplane/crossplane
 47 rebuy-de/aws-nuke
 45 docker/compose
@@ -67,9 +67,9 @@
 25 kyverno/kyverno
 25 ko-build/ko
 25 google/gvisor
+24 kubernetes-sigs/kubespray
 24 google/cadvisor
 24 dexidp/dex
-23 kubernetes-sigs/kubespray
 23 dapr/dapr
 22 kube-hetzner/terraform-hcloud-kube-hetzner
 22 bridgecrewio/checkov
@@ -107,10 +107,10 @@
 14 rancher/rke2
 14 madhuakula/kubernetes-goat
 14 lensapp/lens
+14 kubernetes/node-problem-detector
 14 kubernetes/kops
 14 kubefirst/kubefirst
 13 prometheus/alertmanager
-13 kubernetes/node-problem-detector
 13 kubernetes-sigs/krew
 13 kubernetes-sigs/cluster-api
 13 kubeedge/kubeedge
@@ -125,6 +125,7 @@
 12 k8spacket/k8spacket
 12 fission/fission
 12 cilium/hubble
+11 stern/stern
 11 rook/rook
 11 pixie-io/pixie
 11 metallb/metallb
@@ -133,7 +134,6 @@
 11 clastix/kamaji
 11 GoogleContainerTools/jib
 10 zegl/kube-score
-10 stern/stern
 10 prometheus-operator/prometheus-operator
 10 meshery/meshery
 10 kubescape/kubescape
@@ -262,6 +262,7 @@
 2 asobti/kube-monkey
 2 aenix-io/kubefarm
 2 SparebankenVest/azure-key-vault-to-kubernetes
+2 LeanerCloud/AutoSpotting
 2 JamesTGrant/kubectl-debug
 2 FairwindsOps/gemini
 1 weaveworks/weave-gitops-enterprise
@@ -290,7 +291,6 @@
 1 aws-samples/aws-cost-explorer-report
 1 appvia/krane
 1 Shopify/kubeaudit
-1 LeanerCloud/AutoSpotting
 1 KubeStellar/kubeflex
 1 EladLeev/kubeseal-convert
 1 ContainerSolutions/helm-monitor
