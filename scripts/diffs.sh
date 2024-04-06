@@ -39,9 +39,9 @@ do
     then
         move="🔽"
     else
-        move="-"
+        move="  "
     fi
-    echo "|$move $position|${last:--}|[https://github.com/$name]($name)|+$stars|"
+    echo "|$position|${last:--}|[https://github.com/$name]($name)|+$stars|"
 done < "today-nr"
 
 printf '\n\n<div>\n'
