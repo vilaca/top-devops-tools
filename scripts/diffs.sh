@@ -5,6 +5,7 @@ cat -n today > today-nr
 cat -n yesterday > yesterday-nr
 
 declare -A yesterday
+declare -A diffs
 
 # store yesterday position in memory
 while IFS="" read -r line || [ -n "$line" ]
@@ -13,15 +14,23 @@ do
 	yesterday["$name"]=$position
 done < "yesterday-nr"
 
+# read differences
+while IFS="" read -r line || [ -n "$line" ]
+do
+	read -r stars name <<< "$line"
+	diffs["$name"]=$stars
+done < "data/$1-score"
+
 printf '<div align="center">\n\n'
 
-echo "|Current|Yesterday|Repository|Up/Dn|"
-echo "|:---:|:---:|:---|:---:|"
+echo "|Current|Yesterday|Repository|Stars|Up/Dn|"
+echo "|:---:|:---:|:---|:---:|:---:|"
 #draw chart
 while IFS="" read -r line || [ -n "$line" ]
 do
 	read -r position name <<< "$line"
 	last=${yesterday["$name"]}
+	stars=${diffs["$name"]}
     move=""
     if ((position < last))
     then
@@ -32,7 +41,7 @@ do
     else
         move="-"
     fi
-    echo "|$position|${last:--}|[https://github.com/$name]($name)|$move|"
+    echo "|$position|${last:--}|[https://github.com/$name]($name)|+$stars|$move|"
 done < "today-nr"
 
 printf '\n\n<div>\n'
