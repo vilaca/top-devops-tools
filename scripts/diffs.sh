@@ -6,6 +6,7 @@ cat -n yesterday > yesterday-nr
 
 declare -A yesterday
 declare -A diffs
+declare -A stars
 
 # store yesterday position in memory
 while IFS="" read -r line || [ -n "$line" ]
@@ -21,6 +22,13 @@ do
 	diffs["$name"]=$stars
 done < "data/$1-score"
 
+# read totals
+while IFS="" read -r line || [ -n "$line" ]
+do
+	read -r total name <<< "$line"
+	stars["$name"]=$total
+done < "data/$1"
+
 printf '<div align="center">\n\n'
 
 echo "|Current|Yesterday|Repository|Stars|"
@@ -30,18 +38,20 @@ while IFS="" read -r line || [ -n "$line" ]
 do
 	read -r position name <<< "$line"
 	last=${yesterday["$name"]}
-	stars=${diffs["$name"]}
-    move=""
-    if ((position < last))
-    then
-        move="🔼"
-    elif ((position > last))
-    then
-        move="🔽"
-    else
-        move="  "
-    fi
-    echo "|$position|${last:--}|[https://github.com/$name]($name)|+$stars|"
+	star=${diffs["$name"]}
+    total=${stars["$name"]}
+    
+    # move=""
+    # if ((position < last))
+    # then
+    #     move="🔼"
+    # elif ((position > last))
+    # then
+    #     move="🔽"
+    # else
+    #     move="  "
+    # fi
+    echo "|$position|${last:--}|[https://github.com/$name]($name)|$total(+$star)|"
 done < "today-nr"
 
 printf '\n\n<div>\n'
