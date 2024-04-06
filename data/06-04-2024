@@ -30,7 +30,7 @@
 407 aws-quickstart/cdk-eks-blueprints
 428 aws-samples/aws-cost-explorer-report
 800 aws-samples/hardeneks
-5786 aws/karpenter-provider-aws
+5787 aws/karpenter-provider-aws
 972 awslabs/eks-node-viewer
 473 azure/draft
 896 benc-uk/kubeview
@@ -137,7 +137,7 @@
 13352 GoogleContainerTools/jib
 13788 GoogleContainerTools/kaniko
 14637 GoogleContainerTools/skaffold
-60091 grafana/grafana
+60092 grafana/grafana
 23191 grafana/k6
 21954 grafana/loki
 3680 grafana/mimir
@@ -281,7 +281,7 @@
 673 marcinguy/betterscan-ce
 50 marvasgit/kubernetes-multicooker
 56 marvasgit/kubernetes-statemonitor
-4842 meshery/meshery
+4843 meshery/meshery
 3357 metalbear-co/mirrord
 6572 metallb/metallb
 48 mhausenblas/right-size-guide
@@ -290,7 +290,7 @@
 8 mostafahussein/kubernetes-sec-alert
 179 mrahbar/k8s-testsuite
 3758 MuhammedKalkan/OpenLens
-67945 netdata/netdata
+67947 netdata/netdata
 562 NexClipper/NexClipper
 7544 nicolaka/netshoot
 70 nikolaydubina/jsonl-graph
