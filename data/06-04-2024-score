@@ -1,9 +1,9 @@
 428 winglang/wing
-191 kubernetes/kubernetes
+192 kubernetes/kubernetes
 160 gravitational/teleport
 142 wagoodman/dive
 136 netdata/netdata
-127 minio/minio
+128 minio/minio
 119 Infisical/infisical
 118 abiosoft/colima
 103 derailed/k9s
@@ -13,10 +13,10 @@
 96 loft-sh/vcluster
 91 aquasecurity/trivy
 90 istio/istio
-87 containers/podman
+88 containers/podman
+81 coder/coder
 80 pulumi/pulumi
-79 coder/coder
-72 etcd-io/etcd
+73 etcd-io/etcd
 70 grafana/k6
 67 k3s-io/k3s
 66 portainer/portainer
@@ -53,7 +53,7 @@
 31 rancher/rancher
 31 kubernetes/dashboard
 31 kedacore/keda
-30 k0sproject/k0s
+31 k0sproject/k0s
 30 chaos-mesh/chaos-mesh
 30 argoproj/argo-workflows
 29 openfaas/faas
@@ -117,6 +117,7 @@
 13 buildpacks/pack
 12 tilt-dev/tilt
 12 loxilb-io/loxilb
+12 kubevirt/kubevirt
 12 kubeshark/kubeshark
 12 kubernetes-sigs/kustomize
 12 kubernetes-sigs/krew
@@ -126,7 +127,6 @@
 11 rook/rook
 11 pixie-io/pixie
 11 metallb/metallb
-11 kubevirt/kubevirt
 11 knative/serving
 11 k3s-io/kine
 11 fission/fission
