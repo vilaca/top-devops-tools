@@ -13,7 +13,9 @@ do
 	yesterday["$name"]=$position
 done < "yesterday-nr"
 
-echo "|Current|Yesterday|Repository|Change|"
+printf '<div align="center">\n\n'
+
+echo "|Current|Yesterday|Repository|Up/Dn|"
 echo "|:---:|:---:|:---|:---:|"
 #draw chart
 while IFS="" read -r line || [ -n "$line" ]
@@ -23,17 +25,17 @@ do
     move=""
     if ((position < last))
     then
-        move="⬆️"
+        move="🔼"
     elif ((position > last))
     then
-        move="⬇️"
+        move="🔽"
     else
         move="-"
     fi
-
-    echo "|$position|${last:--}|$name|$move|"
+    echo "|$position|${last:--}|[$name]($name)|$move|"
 done < "today-nr"
 
+printf '\n\n<div>\n'
 
 
 
