@@ -1,6 +1,6 @@
 <div align="center">
 
-|Up/Dn|Current|Yesterday|Repository|Stars|
+|🔼/🔽|Current|Yesterday|Repository|Stars|
 |:---:|:---:|:---:|:---|:---:|
 |-|1|1|[https://github.com/winglang/wing](winglang/wing)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+428|
 |🔼|2|3|[https://github.com/kubernetes/kubernetes](kubernetes/kubernetes)<br/>heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo heloo |+192|
