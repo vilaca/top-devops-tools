@@ -40,6 +40,7 @@ do
 	last=${yesterday["$name"]}
 	star=${diffs["$name"]}
     total=${stars["$name"]}
+    desc="$(curl -s "https://api.github.com/repos/$name"  --header "Authorization: Bearer $PAT" | jq -r .description)"
     
     # move=""
     # if ((position < last))
@@ -51,7 +52,7 @@ do
     # else
     #     move="  "
     # fi
-    echo "|$position|${last:--}|[https://github.com/$name]($name)|$total <sup>(+$star)</sup>|"
+    echo "|$position|${last:--}|[https://github.com/$name]($name)<br/>$desc|$total <sup>(+$star)</sup>|"
 done < "today-nr"
 
 printf '\n\n<div>\n'
