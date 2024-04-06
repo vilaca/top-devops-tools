@@ -147,7 +147,7 @@
 1645 groundcover-com/caretta
 302 groundcover-com/murre
 557 groundnuty/k8s-wait-for
-9644 hadolint/hadolint
+9645 hadolint/hadolint
 27727 hashicorp/consul
 650 hashicorp/consul-k8s
 14859 hashicorp/packer
@@ -241,7 +241,7 @@
 2739 kubernetes-sigs/kui
 10512 kubernetes-sigs/kustomize
 7592 kubernetes/autoscaler
-13781 kubernetes/dashboard
+13782 kubernetes/dashboard
 16587 kubernetes/ingress-nginx
 15531 kubernetes/kops
 5057 kubernetes/kube-state-metrics
@@ -415,7 +415,7 @@
 149 weaveworks/weave-gitops-enterprise
 3895 werf/werf
 35 wI2L/kubectl-vpa-recommendation
-4079 winglang/wing
+4080 winglang/wing
 1877 yannh/kubeconform
 360 yashbhutwala/kubectl-df-pv
 17 yuyicai/kubei
