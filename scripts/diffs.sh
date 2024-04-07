@@ -60,5 +60,5 @@ done < "today-nr"
 
 printf '\n\n</div>\n\n'
 
-echo This chart estimates the 30 most popular open-source DevOps tools by tallying the GitHub stars each repository received in the last seven days.
+echo "<sub>This chart estimates the 30 most popular open-source DevOps tools by tallying the GitHub stars each repository received in the last seven days.</sub>"
 
