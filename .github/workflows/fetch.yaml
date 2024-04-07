@@ -32,6 +32,18 @@ jobs:
         sort -nr score-output > data/"$today"-score
         rm score-output
 
+    - name: Chart
+      env:
+        PAT: ${{ secrets.PAT }}
+      shell: bash
+      run: |
+        today=$(./scripts/utils/today.sh)
+        yesterday=$(./scripts/utils/yesterday.sh)
+        echo $today
+        echo $yesterday
+        ./scripts/diffs.sh $today $yesterday > README.md
+        rm today today-nr yesterday yesterday-nr
+
     - name: Extract branch name
       shell: bash
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
