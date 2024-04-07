@@ -50,8 +50,8 @@
 29 kedacore/keda
 29 dokku/dokku
 28 yannh/kubeconform
+28 rancher/rancher
 28 kubernetes/ingress-nginx
-27 rancher/rancher
 27 kubernetes-sigs/kind
 27 helm/helm
 27 argoproj/argo-workflows
