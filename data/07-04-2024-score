@@ -112,13 +112,13 @@
 12 thanos-io/thanos
 12 madhuakula/kubernetes-goat
 12 kubernetes/node-problem-detector
+12 kubernetes-sigs/kustomize
 12 k8spacket/k8spacket
 12 gardener/gardener
 11 tilt-dev/tilt
 11 loxilb-io/loxilb
 11 kubevirt/kubevirt
 11 kubernetes/kops
-11 kubernetes-sigs/kustomize
 11 kata-containers/kata-containers
 11 fluxcd/flux2
 11 clastix/kamaji

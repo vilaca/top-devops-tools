@@ -38,4 +38,4 @@
 
 </div>
 
-This chart estimates the 30 most popular open-source DevOps tools by tallying the GitHub stars each repository received in the last seven days.
+<sub>This chart estimates the 30 most popular open-source DevOps tools by tallying the GitHub stars each repository received in the last seven days.</sub>
