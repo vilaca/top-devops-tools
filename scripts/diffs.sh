@@ -58,6 +58,6 @@ do
     echo "|$position|${last:--}|[https://github.com/$name]($name)<br/>$desc|$total <sup>(+$star)</sup>|"
 done < "today-nr"
 
-printf '\n\n<div>\n\n'
+printf '\n\n</div>\n\n'
 
 echo This chart estimates what are the 30 most popular OSS Devops tools by calculating how many Github stars each repository received in the last seven days.
