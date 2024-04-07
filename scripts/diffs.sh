@@ -55,7 +55,7 @@ do
     # else
     #     move="  "
     # fi
-    echo "|$position|${last:--}|[https://github.com/$name]($name)<br/>$desc|$total <sup>(+$star)</sup>|"
+    echo "|$position|${last:--}|[$name](https://github.com/$name)<br/>$desc|$total <sup>(+$star)</sup>|"
 done < "today-nr"
 
 printf '\n\n</div>\n\n'
