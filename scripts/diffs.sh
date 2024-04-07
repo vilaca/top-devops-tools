@@ -29,7 +29,7 @@ do
 	stars["$name"]=$total
 done < "data/$1"
 
-echo "# Devops OSS Tools Top 30 Chart"
+echo "# Devops Open Source Tools Top 30"
 echo "<sup>Compiled using https://github.com/vilaca/awesome-k8s-tools</sup>"
 
 printf '<div align="center">\n\n'
@@ -50,5 +50,5 @@ done < "today-nr"
 
 printf '\n\n</div>\n\n'
 
-echo "<sub>This chart estimates the 30 most popular open-source DevOps tools by tallying the GitHub stars each repository received in the last seven days.</sub>"
+echo "<sub>This chart estimates the 30 most popular open source DevOps tools by tallying the GitHub stars each repository received in the last seven days.</sub>"
 
