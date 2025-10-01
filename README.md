@@ -5,11 +5,11 @@
 |<sub>Current</sub>|<sub>Previous</sub>|<sub>Repository</sub>|<sub>Stars</sub>|
 |:---:|:---:|:---|:---:|
 |1|-|[**netdata/netdata**](https://github.com/netdata/netdata)<br/>The fastest path to AI-powered full stack observability, even for lean teams.|76257 <sup>(+273)</sup>|
-|2|-|[**trufflesecurity/trufflehog**](https://github.com/trufflesecurity/trufflehog)<br/>Find, verify, and analyze leaked credentials|22539 <sup>(+196)</sup>|
+|2|-|[**trufflesecurity/trufflehog**](https://github.com/trufflesecurity/trufflehog)<br/>Find, verify, and analyze leaked credentials|22541 <sup>(+198)</sup>|
 |3|-|[**istio/istio**](https://github.com/istio/istio)<br/>Connect, secure, control, and observe services.|37466 <sup>(+153)</sup>|
 |4|-|[**abiosoft/colima**](https://github.com/abiosoft/colima)<br/>Container runtimes on macOS (and Linux) with minimal setup|24826 <sup>(+134)</sup>|
 |5|-|[**minio/minio**](https://github.com/minio/minio)<br/>MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.|55486 <sup>(+131)</sup>|
-|6|-|[**nektos/act**](https://github.com/nektos/act)<br/>Run your GitHub Actions locally 🚀|66037 <sup>(+129)</sup>|
+|6|-|[**nektos/act**](https://github.com/nektos/act)<br/>Run your GitHub Actions locally 🚀|66038 <sup>(+130)</sup>|
 |7|-|[**kubernetes/kubernetes**](https://github.com/kubernetes/kubernetes)<br/>Production-Grade Container Scheduling and Management|117774 <sup>(+128)</sup>|
 |8|-|[**jesseduffield/lazydocker**](https://github.com/jesseduffield/lazydocker)<br/>The lazier way to manage everything docker|46461 <sup>(+126)</sup>|
 |9|-|[**traefik/traefik**](https://github.com/traefik/traefik)<br/>The Cloud Native Application Proxy|56927 <sup>(+115)</sup>|

@@ -75,7 +75,7 @@
 237 cloudogu/gitops-playground
 8 clustergarage/argus
 844 clusterpedia-io/clusterpedia
-11082 coder/coder
+11083 coder/coder
 259 common-fate/iamzero
 148 confidential-containers/operator
 19355 containerd/containerd
@@ -305,7 +305,7 @@
 16632 kubesphere/kubesphere
 139 KubeStellar/kubeflex
 522 kubestellar/kubestellar
-1492 kubetail-org/kubetail
+1493 kubetail-org/kubetail
 184 kubetoolsca/krs
 1682 kubevious/kubevious
 6362 kubevirt/kubevirt
@@ -351,7 +351,7 @@
 12 mostafahussein/kubernetes-sec-alert
 182 mrahbar/k8s-testsuite
 4304 MuhammedKalkan/OpenLens
-66037 nektos/act
+66038 nektos/act
 131 Netcracker/KubeMarine
 76257 netdata/netdata
 567 NexClipper/NexClipper
@@ -410,7 +410,7 @@
 60608 prometheus/prometheus
 2546 prymitive/karma
 2994 pulumi/kubespy
-23855 pulumi/pulumi
+23856 pulumi/pulumi
 242 punk-security/secret-magpie
 118 pymag09/kubecui
 125 rajatjindal/kubectl-whoami
@@ -483,7 +483,7 @@
 56927 traefik/traefik
 380 Trendyol/kink
 112 Trolley-MGMT/trolleymgmt
-22539 trufflesecurity/trufflehog
+22541 trufflesecurity/trufflehog
 7523 turbot/steampipe
 375 twuni/docker-registry.helm
 3953 txn2/kubefwd
