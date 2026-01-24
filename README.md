@@ -4,36 +4,36 @@
 
 |<sub>Current</sub>|<sub>Previous</sub>|<sub>Repository</sub>|<sub>Stars</sub>|
 |:---:|:---:|:---|:---:|
-|1|1|[**cilium/cilium**](https://github.com/cilium/cilium)<br/>eBPF-based Networking, Security, and Observability|23508 <sup>(+157)</sup>|
-|2|2|[**jesseduffield/lazydocker**](https://github.com/jesseduffield/lazydocker)<br/>The lazier way to manage everything docker|49314 <sup>(+154)</sup>|
-|3|4|[**abiosoft/colima**](https://github.com/abiosoft/colima)<br/>Container runtimes on macOS (and Linux) with minimal setup|26449 <sup>(+140)</sup>|
-|4|5|[**kubernetes/kubernetes**](https://github.com/kubernetes/kubernetes)<br/>Production-Grade Container Scheduling and Management|119996 <sup>(+136)</sup>|
-|5|3|[**nektos/act**](https://github.com/nektos/act)<br/>Run your GitHub Actions locally 🚀|68304 <sup>(+132)</sup>|
-|6|6|[**louislam/dockge**](https://github.com/louislam/dockge)<br/>A fancy, easy-to-use and reactive self-hosted docker compose.yaml stack-oriented manager|21613 <sup>(+124)</sup>|
-|7|8|[**traefik/traefik**](https://github.com/traefik/traefik)<br/>The Cloud Native Application Proxy|61197 <sup>(+120)</sup>|
-|8|9|[**grafana/grafana**](https://github.com/grafana/grafana)<br/>The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. |71836 <sup>(+117)</sup>|
-|9|10|[**netdata/netdata**](https://github.com/netdata/netdata)<br/>The fastest path to AI-powered full stack observability, even for lean teams.|77468 <sup>(+111)</sup>|
-|10|11|[**prometheus/prometheus**](https://github.com/prometheus/prometheus)<br/>The Prometheus monitoring system and time series database.|62336 <sup>(+106)</sup>|
-|11|15|[**aquasecurity/trivy**](https://github.com/aquasecurity/trivy)<br/>Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more|31078 <sup>(+103)</sup>|
-|12|18|[**localstack/localstack**](https://github.com/localstack/localstack)<br/>💻 A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline|64160 <sup>(+99)</sup>|
-|13|16|[**containers/podman**](https://github.com/containers/podman)<br/>Podman: A tool for managing OCI containers and pods.|30429 <sup>(+96)</sup>|
-|14|13|[**getsops/sops**](https://github.com/getsops/sops)<br/>Simple and flexible tool for managing secrets|20574 <sup>(+94)</sup>|
-|15|14|[**minio/minio**](https://github.com/minio/minio)<br/>MinIO is a high-performance, S3 compatible object store, open sourced under GNU AGPLv3 license.|59863 <sup>(+88)</sup>|
-|16|17|[**trufflesecurity/trufflehog**](https://github.com/trufflesecurity/trufflehog)<br/>Find, verify, and analyze leaked credentials|24203 <sup>(+87)</sup>|
-|17|12|[**VictoriaMetrics/VictoriaMetrics**](https://github.com/VictoriaMetrics/VictoriaMetrics)<br/>VictoriaMetrics: fast, cost-effective monitoring solution and time series database|16113 <sup>(+87)</sup>|
-|18|22|[**meshery/meshery**](https://github.com/meshery/meshery)<br/>Meshery, the cloud native manager|9742 <sup>(+86)</sup>|
-|19|21|[**portainer/portainer**](https://github.com/portainer/portainer)<br/>Making Docker and Kubernetes management easy.|36284 <sup>(+77)</sup>|
-|20|26|[**kubernetes-sigs/headlamp**](https://github.com/kubernetes-sigs/headlamp)<br/>A Kubernetes web UI that is fully-featured, user-friendly and extensible|5450 <sup>(+77)</sup>|
-|21|19|[**derailed/k9s**](https://github.com/derailed/k9s)<br/>🐶 Kubernetes CLI To Manage Your Clusters In Style!|32573 <sup>(+76)</sup>|
-|22|20|[**k3s-io/k3s**](https://github.com/k3s-io/k3s)<br/>Lightweight Kubernetes|31965 <sup>(+73)</sup>|
-|23|25|[**docker/compose**](https://github.com/docker/compose)<br/>Define and run multi-container applications with Docker|36883 <sup>(+68)</sup>|
-|24|23|[**grafana/k6**](https://github.com/grafana/k6)<br/>A modern load testing tool, using Go and JavaScript|29736 <sup>(+67)</sup>|
-|25|24|[**grafana/loki**](https://github.com/grafana/loki)<br/>Like Prometheus, but for logs.|27455 <sup>(+66)</sup>|
-|26|-|[**goharbor/harbor**](https://github.com/goharbor/harbor)<br/>An open source trusted cloud native registry project that stores, signs, and scans content.|27396 <sup>(+63)</sup>|
-|27|28|[**argoproj/argo-cd**](https://github.com/argoproj/argo-cd)<br/>Declarative Continuous Deployment for Kubernetes|21796 <sup>(+59)</sup>|
-|28|29|[**Infisical/infisical**](https://github.com/Infisical/infisical)<br/>Infisical is the open-source platform for secrets, certificates, and privileged access management.|24559 <sup>(+59)</sup>|
-|29|27|[**coder/coder**](https://github.com/coder/coder)<br/>Secure environments for developers and their agents|12039 <sup>(+54)</sup>|
-|30|-|[**freelensapp/freelens**](https://github.com/freelensapp/freelens)<br/>Free IDE for Kubernetes|4467 <sup>(+50)</sup>|
+|1|-|[**vilaca/iac-hcloud-kubernetes**](https://github.com/vilaca/iac-hcloud-kubernetes)<br/>null|null <sup>(+-1)</sup>|
+|2|-|[**searchlight/searchlight**](https://github.com/searchlight/searchlight)<br/>null|null <sup>(+-2)</sup>|
+|3|-|[**ishantanu/kubectl-unbound-pvc**](https://github.com/ishantanu/kubectl-unbound-pvc)<br/>null|null <sup>(+-2)</sup>|
+|4|-|[**vlad17/aws-magic**](https://github.com/vlad17/aws-magic)<br/>null|null <sup>(+-3)</sup>|
+|5|-|[**gaganyaan2/kubernetes-kn-kx-bash**](https://github.com/gaganyaan2/kubernetes-kn-kx-bash)<br/>null|null <sup>(+-3)</sup>|
+|6|-|[**Nick-Triller/k8s-duplicator**](https://github.com/Nick-Triller/k8s-duplicator)<br/>null|null <sup>(+-6)</sup>|
+|7|-|[**shini4i/kd**](https://github.com/shini4i/kd)<br/>null|null <sup>(+-7)</sup>|
+|8|-|[**clastix/kubectl**](https://github.com/clastix/kubectl)<br/>null|null <sup>(+-7)</sup>|
+|9|-|[**fabiand/kubectl-plugin-pvc**](https://github.com/fabiand/kubectl-plugin-pvc)<br/>null|null <sup>(+-8)</sup>|
+|10|-|[**clustergarage/argus**](https://github.com/clustergarage/argus)<br/>null|null <sup>(+-8)</sup>|
+|11|-|[**polverio/kubelift-cli**](https://github.com/polverio/kubelift-cli)<br/>null|null <sup>(+-11)</sup>|
+|12|-|[**kj187/kubernetes-ingress-linklist**](https://github.com/kj187/kubernetes-ingress-linklist)<br/>null|null <sup>(+-12)</sup>|
+|13|-|[**andrew-waters/linkerd2-mixin**](https://github.com/andrew-waters/linkerd2-mixin)<br/>null|null <sup>(+-12)</sup>|
+|14|-|[**EgeKaanGurkan/k8sc**](https://github.com/EgeKaanGurkan/k8sc)<br/>null|null <sup>(+-12)</sup>|
+|15|-|[**mostafahussein/kubernetes-sec-alert**](https://github.com/mostafahussein/kubernetes-sec-alert)<br/>null|null <sup>(+-13)</sup>|
+|16|-|[**bmuschko/kubectl-swiftnp**](https://github.com/bmuschko/kubectl-swiftnp)<br/>null|null <sup>(+-13)</sup>|
+|17|-|[**makocchi-git/kubectl-dfi**](https://github.com/makocchi-git/kubectl-dfi)<br/>null|null <sup>(+-14)</sup>|
+|18|-|[**yuyicai/kubei**](https://github.com/yuyicai/kubei)<br/>null|null <sup>(+-16)</sup>|
+|19|-|[**ibm/kone**](https://github.com/ibm/kone)<br/>null|null <sup>(+-16)</sup>|
+|20|-|[**bmuschko/gradle-kubernetes-plugin**](https://github.com/bmuschko/gradle-kubernetes-plugin)<br/>null|null <sup>(+-16)</sup>|
+|21|-|[**eduardobaitello/kubelogs**](https://github.com/eduardobaitello/kubelogs)<br/>null|null <sup>(+-17)</sup>|
+|22|-|[**unagex/metabase-operator**](https://github.com/unagex/metabase-operator)<br/>null|null <sup>(+-18)</sup>|
+|23|-|[**widnyana/kubectl-ports-rs**](https://github.com/widnyana/kubectl-ports-rs)<br/>null|null <sup>(+-20)</sup>|
+|24|-|[**davidmdm/yoke**](https://github.com/davidmdm/yoke)<br/>null|null <sup>(+-20)</sup>|
+|25|-|[**kube-aws/kube-aws**](https://github.com/kube-aws/kube-aws)<br/>null|null <sup>(+-21)</sup>|
+|26|-|[**kj187/k8s-http-monitoring**](https://github.com/kj187/k8s-http-monitoring)<br/>null|null <sup>(+-22)</sup>|
+|27|-|[**robusta-dev/robusta-chaos**](https://github.com/robusta-dev/robusta-chaos)<br/>null|null <sup>(+-23)</sup>|
+|28|-|[**reddec/keycloak-ext-operator**](https://github.com/reddec/keycloak-ext-operator)<br/>null|null <sup>(+-23)</sup>|
+|29|-|[**sharadregoti/devops-cli**](https://github.com/sharadregoti/devops-cli)<br/>null|null <sup>(+-24)</sup>|
+|30|-|[**cloudboss/keights**](https://github.com/cloudboss/keights)<br/>null|null <sup>(+-24)</sup>|
 
 
 </div>
